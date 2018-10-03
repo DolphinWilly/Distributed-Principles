@@ -1,0 +1,26 @@
+0 start 3 10000
+1 start 3 10005
+2 start 3 10007
+1 broadcast m1
+1 broadcast m2
+1 broadcast m3
+sleep 1000
+2 get
+1 get
+0 get
+1 crash
+0 broadcast m4
+0 broadcast m5
+0 broadcast m6
+sleep 1000
+0 get
+2 get
+1 start 3 10005
+2 broadcast m7
+2 broadcast m8
+2 broadcast m9
+sleep 1000
+0 get
+1 get
+2 get
+exit

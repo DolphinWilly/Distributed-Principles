@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Kill Java
+killall -9 process
+ps aux | grep chatServer | awk ’{print $2}’ | xargs kill

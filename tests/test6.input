@@ -1,0 +1,17 @@
+1 start 10 10000
+0 start 10 10001
+1 alive
+0 alive
+2 start 10 10002
+3 start 10 10003
+2 alive
+3 alive
+1 alive
+0 alive
+1 broadcast hi
+sleep 1000
+0 get
+1 get
+2 get
+3 get
+exit

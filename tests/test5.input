@@ -1,0 +1,17 @@
+0 start 5 10000
+0 broadcast I
+sleep 1000
+0 get
+1 start 5 10001
+1 broadcast love
+sleep 1000
+0 get
+1 alive
+1 crash
+0 alive
+2 start 5 10002
+2 broadcast you
+sleep 1000
+0 get
+0 alive
+exit

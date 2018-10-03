@@ -1,0 +1,15 @@
+0 start 4 10000
+1 start 4 10001
+2 start 4 10002
+3 start 4 10003
+1 broadcast hello
+sleep 1000
+0 get
+2 broadcast world
+sleep 1000
+1 get
+3 broadcast Jules
+sleep 1000
+2 get
+3 get
+exit
